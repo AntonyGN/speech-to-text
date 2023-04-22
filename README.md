@@ -64,5 +64,12 @@ with sr.Microphone() as source:
     except:
         print("Sorry could not recognize what you said")
 ```
+3. Run the cell.
+4. Speak into your microphone when prompted by the script.
+5. The script will transcribe your speech and print the result to the console. If the script is unable to recognize your speech, it will print an error message.
+
+## Acknowledgments
+- This script was adapted from the ```speech_recognition``` library's [documentation](https://github.com/Uberi/speech_recognition/blob/master/examples/microphone_recognition.py).
+
 
 
